@@ -46,7 +46,7 @@ h4 {
   margin: 0;
 }
 
-body {
+/*body {
   font-family: 'Inter-Regular';
   font-style: normal;
   font-weight: 400;
@@ -65,7 +65,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: var(--color-black);
-}
+}*/
 
 .btn {
   width: 220px;
