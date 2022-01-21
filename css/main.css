@@ -28,7 +28,7 @@ h4 {
 }
 
 body {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #FFFFFF;
@@ -227,7 +227,7 @@ body {
 }
 
 .hero__title {
-  font-family: Merriweather-Bold;
+  font-family: 'Merriweather', serif;
   font-style: normal;
   font-weight: bold;
   font-size: var(--font1);
@@ -245,7 +245,7 @@ body {
 .section-title-h2-style {
   font-weight: bold;
   color: var(--color-gold);
-  font-family: Merriweather-Bold;
+  font-family: 'Merriweather', serif;
   font-style: normal;
   font-size: var(--font2);
   line-height: 80px;
@@ -367,7 +367,7 @@ body {
 }
 
 .skills__title-title {
-  font-family: Inter-Bold;
+  font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 20px;
   line-height: 40px;
@@ -527,7 +527,7 @@ body {
   border: 3px solid var(--color-gold);
   padding-top: 42px;
   padding-bottom: 43px;
-  font-family: Merriweather-Bold;
+  font-family: 'Merriweather', serif;
   font-style: normal;
   font-weight: bold;
 }
@@ -546,7 +546,7 @@ body {
 }
 
 .price__item-services {
-  font-family: Inter-Regular;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -555,7 +555,7 @@ body {
 
 .price__item-btn {
   margin-top: 40px;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -738,7 +738,7 @@ body {
 
 .footer__social-link_fb {
   background-image: url("../assets/svg/fb1.svg");
-}
+}'Inter', 
 
 .footer__social-link_tv {
   background-image: url("../assets/svg/tw1.svg");
