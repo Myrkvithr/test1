@@ -84,13 +84,13 @@ body {
   font-family: inherit;
 }
 
-.btn_gold {
+/*.btn_gold {
   color: var(--color-black);
   background-color: var(--color-gold);
   border: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-}
+}*/
 
 .btn_gold:hover {
   color: #FFFFFF;
