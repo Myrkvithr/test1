@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="icon" href="gui_portfolio_icon.ico">
     <link rel="stylesheet" href="css/normalize_v8.0.1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
-    
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@400;wght@700&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="css/main.css">
 
     <title>Porfolio</title>
@@ -20,42 +22,75 @@
 </head>
 
 <body>
-    <header class="header__container container">
+    <header class="header__container">
+        <div class="header__wrapper container">
+            <a class="header__main-page-link" href="index.html"></a>
 
-        <a class="header__main-page-link" href="index.html"></a>
-
-        <nav class="header__nav">
-            <ul class="header__nav-list">
-                <li class="header__nav-item"><a href="#skills" class="header__nav-link
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#skills" class="header__nav-link
                         ">Skills</a></li>
-                <li class="header__nav-item"><a href="#portfolio" class="header__nav-link
+                    <li class="header__nav-item"><a href="#portfolio" class="header__nav-link
                         ">Portfolio</a></li>
-                <li class="header__nav-item"><a href="#video" class="header__nav-link
+                    <li class="header__nav-item"><a href="#video" class="header__nav-link
                         ">Video</a></li>
-                <li class="header__nav-item"><a href="#price" class="header__nav-link
+                    <li class="header__nav-item"><a href="#price" class="header__nav-link
                         ">Price</a></li>
-                <li class="header__nav-item"><a href="#contacts" class="header__nav-link
+                    <li class="header__nav-item"><a href="#contacts" class="header__nav-link
                         ">Contacts</a></li>
-                <li class="header__nav-item header__nav-item-lang">
-                    <a href="#" class="header__nav-link header__nav-link_active header__nav-link-lang
-                        ">en</a> /
-                    <a href="#" class="header__nav-link header__nav-link-lang
-                        ">ru</a>
-                </li>
-            </ul>
-        </nav>
+                </ul>
 
+            </nav>
+            <div class="header__lang">
+                <a href="#" class="header__nav-link header__lang_active header__link-lang
+                ">en</a> /
+                <a href="#" class="header__nav-link header__link-lang
+                ">ru</a>
+            </div>
+
+            <div class="hamburger-btn">
+                <span class="hamburger-btn__line"></span>
+                <span class="hamburger-btn__line"></span>
+                <span class="hamburger-btn__line"></span>
+            </div>
+            <nav class="header__nav-hamburger-menu">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#skills" class="header__nav-link
+                        ">Skills</a></li>
+                    <li class="header__nav-item"><a href="#portfolio" class="header__nav-link
+                        ">Portfolio</a></li>
+                    <li class="header__nav-item"><a href="#video" class="header__nav-link
+                        ">Video</a></li>
+                    <li class="header__nav-item"><a href="#price" class="header__nav-link
+                        ">Price</a></li>
+                    <li class="header__nav-item"><a href="#contacts" class="header__nav-link
+                        ">Contacts</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
     </header>
+
+
+
+
+
+
 
     <main class="main">
 
-        <section class="hero__container container" id="hero">
+
+        <section class="hero__container" id="hero">
+
             <div class="hero__inner">
                 <h1 class="hero__title">Alexa Rise</h1>
                 <p class="hero__description">Save sincere emotions, romantic feelings and happy moments of life together
                     with professional photographer Alexa Rise</p>
                 <button class="btn btn_gold">Hire me</button>
             </div>
+
+
         </section>
 
         <section class="skills__container container" id="skills">
@@ -95,6 +130,10 @@
             </div>
 
         </section>
+
+
+
+
 
         <section class="portfolio__container container-pt container" id="portfolio">
             <h2 class="portfolio__title section-title-h2-style section-title-h2-decor section-title-h2-decor_long">
@@ -168,7 +207,7 @@
 
         </section>
 
-        <section class="contacts__container container-pt container" id="contacts">
+        <section class="contacts__container container-pt " id="contacts">
             <div class="contacts__inner">
                 <h2 class="contacts__title section-title-h2-style">Contact me</h2>
                 <form class="contacts__form" action="action/action.php" method="get">
