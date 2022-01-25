@@ -3,10 +3,6 @@ console.log('Вёрстка валидная +10\n\nВёрстка семант�
 const btn = document.querySelector('.hamburger-btn');
 
 btn.addEventListener('click', function () {
-    if (document.querySelector('.active')) {
-        btn.classList.remove('active');
-    } else {
-        btn.classList.add('active');
-    }
+btn.classList.toggle('active');
 
 });
