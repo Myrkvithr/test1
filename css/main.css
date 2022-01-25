@@ -344,6 +344,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
+
       -ms-flex-pack: justify;
           justify-content: space-between;
   -ms-flex-wrap: wrap;
@@ -842,14 +843,14 @@ body {
   .hamburger-btn:hover {
     cursor: pointer;
   }
-  .hamburger-btn.active.hamburger-btn__line:nth-child(2) {
+  .active.hamburger-btn__line:nth-child(2) {
     opacity: 0;
   }
-  .hamburger-btn.active.hamburger-btn__line:nth-child(1) {
+  .active.hamburger-btn__line:nth-child(1) {
     -webkit-transform: translateY(13px) rotate(45deg);
             transform: translateY(13px) rotate(45deg);
   }
-  .hamburger-btn.active.hamburger-btn__line:nth-child(3) {
+  .active.hamburger-btn__line:nth-child(3) {
     -webkit-transform: translateY(-13px) rotate(-45deg);
             transform: translateY(-13px) rotate(-45deg);
   }
